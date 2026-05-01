@@ -1,0 +1,4 @@
+rm -f junk
+valgrind --log-file=junk --tool=memcheck --leak-check=yes ./gemray
+# Saving this file just in case I need to run Valgrind again
+rem  Saving this file just in case I need to run Valgrind again

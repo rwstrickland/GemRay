@@ -1,2 +1,0 @@
-rm -f junk
-valgrind --log-file=junk --tool=memcheck --leak-check=yes ./gemraytest
